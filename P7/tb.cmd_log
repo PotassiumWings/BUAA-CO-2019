@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 
+vhdtdtfi -lang verilog -prj p7-new -o C:/Users/mumuy/Desktop/CO/p7-new/tb.tfi -lib work C:/Users/mumuy/Desktop/CO/p7-new//tb.v -module tb -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/mumuy/Desktop/CO/p7-new/tb.xst" -ofn "C:/Users/mumuy/Desktop/CO/p7-new/tb.syr" 

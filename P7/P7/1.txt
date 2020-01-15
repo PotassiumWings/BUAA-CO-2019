@@ -1,0 +1,43 @@
+1.暂停-》nop
+2.eret-》nop
+3.乘除+eret
+div eret mflo
+
+PC->instr:考虑RI，排除超范围等情况 
+
+sll rd=0
+
+1. BD
+2. 异常
+3. 中断
+4. eret
+5. mfc0 mtc0
+6. TC
+7. DM 外设
+
+req到来：直接清除所有PC instr，若来中断则保证exl始终为1，不管中断；乘除器不能写入，dm以及外设、CP0不能写入；清BD位。
+
+stall到来：IF/ID停留，ID/EX清除其他，保留PC（此时气泡中PC为下一个指令PC）；不清BD位。
+
+eret到来：D/E/M的eret->instrF=nop，eret到达M->（PCF<=EPC），即eret到W->F为EPC指令；中间所有PC均为EPC；（本来就没有BD位）。
+
+
+test4:req优先级大于stall，pcreg同时传入req stall，先响应req（因为在先）
+
+eret的nop来中断？
+ERET前改变epc，nop来中断->保证不存在（EPC只有在上述情况下被写入）
+
+异常指令关闭write信号
+mul，save
+
+数据：
+1. 暂停的nop里中断 intinbubble
+2. muldiv前一条指令中断 intbeforemul
+3. eret前muldiv muleret
+4. eret紧跟中断 eretint
+
+15:10 0
+fc01
+
+stall nop：后一个指令的PC
+bd继续传

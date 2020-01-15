@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\__mips_tb.v" Line 3: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">__mips_tb</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 37: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 47: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 57: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 54: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 67: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 77: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+</messages>
+

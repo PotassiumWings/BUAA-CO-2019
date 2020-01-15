@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\tb.v" Line 162: Using initial value of <arg fmt="%s" index="1">reset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\mips.v" Line 35: Port <arg fmt="%s" index="1">PC_F</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\IM.v" Line 33: Signal &lt;<arg fmt="%s" index="1">im</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\IM.v" Line 34: Signal &lt;<arg fmt="%s" index="1">im</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\CPU.v" Line 208: Assignment to <arg fmt="%s" index="1">rdD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\CTL.v" Line 133: Assignment to <arg fmt="%s" index="1">rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 38: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 48: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 59: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\interpreter.v" Line 126: Assignment to <arg fmt="%s" index="1">rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 51: Assignment to <arg fmt="%s" index="1">muldiv_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 53: Assignment to <arg fmt="%s" index="1">jalr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 54: Assignment to <arg fmt="%s" index="1">mt_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 56: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 71: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 83: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 58: Assignment to <arg fmt="%s" index="1">store_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 59: Assignment to <arg fmt="%s" index="1">cal_r_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 60: Assignment to <arg fmt="%s" index="1">jr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 61: Assignment to <arg fmt="%s" index="1">shiftS_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 62: Assignment to <arg fmt="%s" index="1">mt_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 64: Assignment to <arg fmt="%s" index="1">muldiv_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 66: Assignment to <arg fmt="%s" index="1">mfc0_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 67: Assignment to <arg fmt="%s" index="1">mtc0_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 73: Assignment to <arg fmt="%s" index="1">store_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 75: Assignment to <arg fmt="%s" index="1">jr_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 78: Assignment to <arg fmt="%s" index="1">mfc0_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 79: Assignment to <arg fmt="%s" index="1">mtc0_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 85: Assignment to <arg fmt="%s" index="1">store_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 87: Assignment to <arg fmt="%s" index="1">jr_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 91: Assignment to <arg fmt="%s" index="1">mtc0_W</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>

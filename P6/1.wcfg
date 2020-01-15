@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/mumuy/Desktop/ISE/P6/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/PCBranch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCBranch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCBranch[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/readRsD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readRsD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readRsD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/readRtD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readRtD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readRtD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/pause/cal_r_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cal_r_D</obj_property>
+      <obj_property name="ObjectShortName">cal_r_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/pause/stall_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall_b</obj_property>
+      <obj_property name="ObjectShortName">stall_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/pause/bgez_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bgez_D</obj_property>
+      <obj_property name="ObjectShortName">bgez_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/pause/rt_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rt_D</obj_property>
+      <obj_property name="ObjectShortName">rt_D</obj_property>
+   </wvobject>
+</wave_config>

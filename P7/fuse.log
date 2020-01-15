@@ -1,0 +1,68 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/mumuy/Desktop/CO/p7-new/tb_isim_beh.exe" -prj "C:/Users/mumuy/Desktop/CO/p7-new/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/interpreter.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/STALL.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/PCregF.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/NPC.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/MEWB.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/IM.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/IFID.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/IDEX.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/HILO.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/GRF.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/FORWARD.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/EXT.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/EXME.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/DM.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/CTL.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/CP0.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/CMP.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/ALU.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/Timer.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/CPU.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/mips.v" into library work
+Analyzing Verilog file "C:/Users/mumuy/Desktop/CO/p7-new/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/mips.v" Line 35: Port PC_F is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/STALL.v" Line 38: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/STALL.v" Line 48: Port store is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/STALL.v" Line 59: Port store is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/FORWARD.v" Line 56: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/FORWARD.v" Line 71: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/mumuy/Desktop/CO/p7-new/FORWARD.v" Line 83: Port j is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 180976 KB
+Fuse CPU Usage: 343 ms
+Compiling module PCregF
+Compiling module NPC
+Compiling module IM
+Compiling module IFID
+Compiling module CTL
+Compiling module GRF
+Compiling module CMP
+Compiling module EXT
+Compiling module IDEX
+Compiling module ALU
+Compiling module HILO
+Compiling module EXME
+Compiling module DM
+Compiling module CP0
+Compiling module MEWB
+Compiling module interpreter
+Compiling module STALL
+Compiling module FORWARD
+Compiling module CPU
+Compiling module TC
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/mumuy/Desktop/CO/p7-new/tb_isim_beh.exe
+Fuse Memory Usage: 189040 KB
+Fuse CPU Usage: 890 ms

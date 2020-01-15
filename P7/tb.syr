@@ -1,0 +1,237 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: tb.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tb.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tb"
+Output Format                      : NGC
+Target Device                      : xc7a100t-2-csg324
+
+---- Source Options
+Top Module Name                    : tb
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\interpreter.v" into library work
+Parsing module <interpreter>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" into library work
+Parsing module <STALL>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\PCregF.v" into library work
+Parsing module <PCregF>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\MEWB.v" into library work
+Parsing module <MEWB>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\IFID.v" into library work
+Parsing module <IFID>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\IDEX.v" into library work
+Parsing module <IDEX>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\HILO.v" into library work
+Parsing module <HILO>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" into library work
+Parsing module <FORWARD>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\EXME.v" into library work
+Parsing module <EXME>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\CTL.v" into library work
+Parsing module <CTL>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\Timer.v" into library work
+Parsing module <TC>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p7-new\tb.v" into library work
+Parsing module <tb>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <tb>.
+WARNING:HDLCompiler:872 - "C:\Users\mumuy\Desktop\CO\p7-new\tb.v" Line 162: Using initial value of reset since it is never assigned
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\mips.v" Line 35: Port PC_F is not connected to this instance
+
+Elaborating module <mips>.
+
+Elaborating module <CPU>.
+
+Elaborating module <PCregF>.
+
+Elaborating module <NPC>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\mumuy\Desktop\CO\p7-new\IM.v" Line 33: Signal <im> in initial block is partially initialized.
+Reading initialization file \"code_handler.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\mumuy\Desktop\CO\p7-new\IM.v" Line 34: Signal <im> in initial block is partially initialized.
+
+Elaborating module <IFID>.
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\CPU.v" Line 208: Assignment to rdD ignored, since the identifier is never used
+
+Elaborating module <CTL>.
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\CTL.v" Line 133: Assignment to rs ignored, since the identifier is never used
+"C:\Users\mumuy\Desktop\CO\p7-new\CTL.v" Line 210. $display  32'b00000000000000000011011000111000 32'b00000000000000000000000010001000 32'b................................
+
+Elaborating module <GRF>.
+"C:\Users\mumuy\Desktop\CO\p7-new\GRF.v" Line 50. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <CMP>.
+
+Elaborating module <EXT>.
+
+Elaborating module <IDEX>.
+
+Elaborating module <ALU>.
+
+Elaborating module <HILO>.
+
+Elaborating module <EXME>.
+
+Elaborating module <DM>.
+"C:\Users\mumuy\Desktop\CO\p7-new\DM.v" Line 80. $display  32'b................................ 30'b............................00 32'b................................
+
+Elaborating module <CP0>.
+"C:\Users\mumuy\Desktop\CO\p7-new\CP0.v" Line 88. $display bad input
+
+Elaborating module <MEWB>.
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 38: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 48: Port store is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 59: Port store is not connected to this instance
+
+Elaborating module <STALL>.
+
+Elaborating module <interpreter>.
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\interpreter.v" Line 126: Assignment to rs ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 51: Assignment to muldiv_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 53: Assignment to jalr_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\STALL.v" Line 54: Assignment to mt_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 56: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 71: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 83: Port j is not connected to this instance
+
+Elaborating module <FORWARD>.
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 58: Assignment to store_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 59: Assignment to cal_r_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 60: Assignment to jr_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 61: Assignment to shiftS_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 62: Assignment to mt_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 64: Assignment to muldiv_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 66: Assignment to mfc0_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 67: Assignment to mtc0_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 73: Assignment to store_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 75: Assignment to jr_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 78: Assignment to mfc0_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 79: Assignment to mtc0_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 85: Assignment to store_W ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 87: Assignment to jr_W ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\mumuy\Desktop\CO\p7-new\FORWARD.v" Line 91: Assignment to mtc0_W ignored, since the identifier is never used
+
+Elaborating module <TC>.
+"C:\Users\mumuy\Desktop\CO\p7-new\Timer.v" Line 63. $display  32'b................................ 32'b..............................00 32'b................................

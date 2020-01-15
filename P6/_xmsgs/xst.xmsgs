@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\tb.v" Line 37: Using initial value of <arg fmt="%s" index="1">reset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\IM.v" Line 31: Signal &lt;<arg fmt="%s" index="1">im</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\mips.v" Line 88: Assignment to <arg fmt="%s" index="1">rdD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\CTL.v" Line 125: Assignment to <arg fmt="%s" index="1">rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\STALL.v" Line 37: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\STALL.v" Line 53: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\STALL.v" Line 61: Port <arg fmt="%s" index="1">store</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\interpreter.v" Line 121: Assignment to <arg fmt="%s" index="1">rs</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\STALL.v" Line 48: Assignment to <arg fmt="%s" index="1">mf_D</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\STALL.v" Line 57: Assignment to <arg fmt="%s" index="1">jalr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 54: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 72: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 82: Port <arg fmt="%s" index="1">j</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 56: Assignment to <arg fmt="%s" index="1">store_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 57: Assignment to <arg fmt="%s" index="1">load_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 58: Assignment to <arg fmt="%s" index="1">cal_r_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 59: Assignment to <arg fmt="%s" index="1">cal_i_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 61: Assignment to <arg fmt="%s" index="1">jr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 62: Assignment to <arg fmt="%s" index="1">b_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 63: Assignment to <arg fmt="%s" index="1">shiftS_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 64: Assignment to <arg fmt="%s" index="1">mt_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 65: Assignment to <arg fmt="%s" index="1">mf_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 67: Assignment to <arg fmt="%s" index="1">muldiv_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 74: Assignment to <arg fmt="%s" index="1">store_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 76: Assignment to <arg fmt="%s" index="1">jr_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 84: Assignment to <arg fmt="%s" index="1">store_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\mumuy\Desktop\ISE\P6\FORWARD.v" Line 86: Assignment to <arg fmt="%s" index="1">jr_W</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>

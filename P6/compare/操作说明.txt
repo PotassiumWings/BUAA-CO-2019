@@ -1,0 +1,13 @@
+操作步骤：
+1. 将这个compare文件夹和mars.jar放到你所要测试的各种.v所在文件夹内（mars要拿出来和.v一起！）
+注意：testproducerP5可以全覆盖，但P6需要手动修改内部内容。
+2. 点开testproducer.exe，生成测试程序
+3. 将生成的测试程序test.asm放到.v所在文件夹内（不用管code.txt）
+4. 命令行进入.v所在文件夹内（不会的上网查“命令行 cd”），输入以下文字：
+java -jar Mars.jar 20000 db nc mc CompactDataAtZero dump .text HexText code.txt test.asm > compare/marsResult.txt
+5. 打开ISE仿真，把所有输出复制到verilogOut.txt（建议调到22us后restart->run for the time specified on the toolbar，这样中间才不会夹杂别的东西）
+6. 检查是否复制正确（不要把第一条指令前面的任何杂东西复制过去，包括中间夹杂的ISim> #restart ISim #run 22.00us这些东西）
+7. 打开compare.bat
+8. 如果前两行星号之间没有字符显示，那么这组数据没问题
+9. 如果显示“差异过大”，且下面的marsresult部分显示仅有一行且恰好为上面verilogresult的第一行，那么也没问题（mars因为达到上限而停止运行，而ise运行了22us）
+10. 这是第二版本，支持P5课下所有指令addu subu ori lui sw lw beq jal j jr nop，不支持其他任何指令。（通过修改testproducer即可支持其他指令）

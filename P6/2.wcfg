@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/mumuy/Desktop/CO/p6/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/PCD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/instrD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instrD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/readRsD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readRsD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readRsD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/readRtD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readRtD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readRtD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfRsD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfRsD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grfRsD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfRtD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfRtD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grfRtD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CMPEqual" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CMPEqual</obj_property>
+      <obj_property name="ObjectShortName">CMPEqual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CMPGreater" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CMPGreater</obj_property>
+      <obj_property name="ObjectShortName">CMPGreater</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CMPLess" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CMPLess</obj_property>
+      <obj_property name="ObjectShortName">CMPLess</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfWriteAddrD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfWriteAddrD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">grfWriteAddrD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfWriteAddrE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfWriteAddrE[4:0]</obj_property>
+      <obj_property name="ObjectShortName">grfWriteAddrE[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfWriteAddrM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfWriteAddrM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">grfWriteAddrM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfWriteAddrW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfWriteAddrW[4:0]</obj_property>
+      <obj_property name="ObjectShortName">grfWriteAddrW[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/grfWriteDataW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">grfWriteDataW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grfWriteDataW[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/memToRegD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memToRegD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">memToRegD[1:0]</obj_property>
+   </wvobject>
+</wave_config>

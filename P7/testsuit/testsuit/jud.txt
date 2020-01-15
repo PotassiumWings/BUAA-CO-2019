@@ -1,0 +1,4 @@
+echo Compiling
+cd "%~dp0\tmp\"
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\fuse" --nodebug -i "%1" --prj "%~dp0\tmp\__mips_tb_beh.prj" -o "%~dp0\tmp\mips_tb_beh.exe" __mips_tb > "%~dp0\tmp\fuse-compile.out" 2> "%~dp0\tmp\fuse-compile.tmp"
+cd %ori%

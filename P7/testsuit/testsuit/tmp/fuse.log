@@ -1,0 +1,65 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe --nodebug -i p6 --prj C:\Users\mumuy\Desktop\CO\p6\testsuit\\tmp\__mips_tb_beh.prj -o C:\Users\mumuy\Desktop\CO\p6\testsuit\\tmp\mips_tb_beh.exe __mips_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\\__mips_tb.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\ALU.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\CMP.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\CTL.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\DM.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\EXME.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\EXT.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\GRF.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\HILO.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\IDEX.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\IFID.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\IM.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\interpreter.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\MEWB.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\mips.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\MUX2.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\MUX4.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\NPC.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\PCregF.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\tb.v" into library work
+Analyzing Verilog file "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\__mips_tb.v" into library work
+WARNING:HDLCompiler:687 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\__mips_tb.v" Line 3: Illegal redeclaration of module <__mips_tb>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 37: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 47: Port store is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\STALL.v" Line 57: Port store is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 54: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 67: Port j is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\mumuy\Desktop\CO\p6\testsuit\p6\FORWARD.v" Line 77: Port j is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 180720 KB
+Fuse CPU Usage: 467 ms
+Compiling module PCregF
+Compiling module NPC
+Compiling module IM
+Compiling module IFID
+Compiling module CTL
+Compiling module GRF
+Compiling module CMP
+Compiling module EXT
+Compiling module IDEX
+Compiling module ALU
+Compiling module HILO
+Compiling module EXME
+Compiling module DM
+Compiling module MEWB
+Compiling module MUX4
+Compiling module interpreter
+Compiling module STALL
+Compiling module FORWARD
+Compiling module mips
+Compiling module __mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable C:\Users\mumuy\Desktop\CO\p6\testsuit\\tmp\mips_tb_beh.exe
+Fuse Memory Usage: 189972 KB
+Fuse CPU Usage: 796 ms
